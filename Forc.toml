@@ -1,0 +1,9 @@
+[project]
+authors = ["Shankar rao Mata"]
+entry = "main.sw"
+license = "Apache-2.0"
+name = "fuelfeed-contract"
+
+[dependencies]
+# If these standards are part of your local environment or sway stdlib
+sway_libs = { git = "https://github.com/FuelLabs/sway-libs", tag = "v0.21.0" }
